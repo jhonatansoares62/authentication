@@ -1,0 +1,31 @@
+<div class="container">
+  <legend>Update A User</legend>
+  <div class="mb-3">
+    <label for="txtUserName" class="form-label">User Name</label>
+    <input
+      type="text"
+      [(ngModel)]="userForm.name"
+      class="form-control"
+      id="txtUserName"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="txtEmail" class="form-label">Email</label>
+    <input
+      type="text"
+      [(ngModel)]="userForm.email"
+      class="form-control"
+      id="txtEmail"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="txtPassword" class="form-label">Password</label>
+    <input
+      type="password"
+      [(ngModel)]="userForm.password"
+      class="form-control"
+      id="txtPassword"
+    />
+  </div>
+  <button type="button" class="btn btn-dark" (click)="udapte()">Update</button>
+</div>

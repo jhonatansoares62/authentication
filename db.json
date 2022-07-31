@@ -5,6 +5,18 @@
       "name": "jhonatan",
       "email": "jhonatansoares62@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": "Teste",
+      "email": "teste@email.com",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "name": "Ana paula Vitorino",
+      "email": "ana@gmail.com",
+      "password": "123456"
     }
   ]
 }
